@@ -1,0 +1,56 @@
+body {
+text-align: center;
+background: #ff0000;
+background: radial-gradient(circle,rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+#header {
+
+}
+#middle {
+
+}
+#strgl {
+	font-family: Jazz; 
+	font-variant: small-caps;
+	font-size: 100px;
+	text-align:center;
+}
+.klasa {
+	font-family: Courier New;
+	font-size: 40px;
+	font-variant: ;
+	color: black;
+	padding: 50px
+	
+}	
+#zad {
+	font-family: Courier New;
+	font-size: 20px;
+	text-align: center;
+}
+.zad {
+	font-family: Courier New;
+}
+
+.button {
+    background: black;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: red;
+    padding: 18px 30px;
+    border-radius: 20px;
+    transition: all 0.8s ease;
+	text-decoration:none;
+	font-size: 20px
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+	color: black;
+}
+#autor {
+	text-align: right;
+	color: red;
+}
