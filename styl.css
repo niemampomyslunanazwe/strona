@@ -2,8 +2,6 @@ body {
 	text-align: center;
 	background: #ff0000;
 	background: radial-gradient(circle,rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
-	display: flex;
-	flex-wrap: wrap;
 }
 #header {
 
@@ -55,5 +53,6 @@ body {
 #autor {
 	text-align: right;
 	color: red;
-
+	position: relative;
 }
+
